@@ -8,6 +8,6 @@ Jekyll does **not** like this at all, so I had to turn off the formatter on the 
 
 Anyways, here's some pictures of Tad
 
- ![Tad]({{site.baseurl}}/assets/images/IMG_1390.png){:class="img-responsive"}{:width="250"}
+ ![Tad]({{site.baseurl}}/assets/images/IMG_1390.png){:class="img-responsive"}{:width="100%"}
 
- ![More Tad]({{site.baseurl}}/assets/images/IMG_3551.jpg){:width="250"}
+ ![More Tad]({{site.baseurl}}/assets/images/IMG_3551.jpg){:width="100%"}
