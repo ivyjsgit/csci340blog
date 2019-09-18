@@ -25,7 +25,7 @@ github_username:  ivyjsgit
 
 # Build settings
 markdown: kramdown
-theme: massively_jekyll_theme
+# theme: massively_jekyll_theme
 plugins:
   - jekyll-feed
 
