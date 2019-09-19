@@ -28,7 +28,8 @@ markdown: kramdown
 # theme: massively_jekyll_theme
 plugins:
   - jekyll-feed
-
+collections:
+  collections_dir: pages
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
