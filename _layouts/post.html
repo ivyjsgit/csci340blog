@@ -11,27 +11,40 @@
 	  <body class="is-loading">
 
 		    <!-- Wrapper -->
-			  <div id="wrapper">
+			<div id="wrapper">
 
             <!-- {% include header.html %} -->
             {% include menu.html %}
 
-				    <!-- Post -->
-				    <section class="post">
-						    <header class="major">
-								    <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
-								    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-								    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
-						    </header>
-
-                {% if page.image %}
-                <div class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></div>
-                {% endif %}
-
-                {{ content }}
-
-				    </section>
-
+					<!-- Post -->
+					<!-- <article class="center-relative"> -->
+							<div id="content" class="site-content center-relative">
+									<div class="single-post-wrapper content-1070 center-relative">
+						
+										<article class="center-relative">
+											<h1 class="entry-title">
+												{{page.title}}
+											</h1>
+											<div class="post-info content-660 center-relative">
+												<div class="cat-links">
+													<ul>
+														<p>{{page.author}}</p>
+													</ul>
+												</div>
+												<div class="entry-date published">{{ page.date | date: '%B %d, %Y' }}</div>
+												<div class="clear"></div>
+											</div>
+						
+											<div class="entry-content">
+												<div class="content-660 center-relative post-content">
+													{{page.content}}
+													<!-- {{page.ol}} -->
+												</div>
+											</div>
+											<div class="clear"></div>
+										<!-- </article> -->
+									</div>
+					</article>
             {% include footer.html %}
 
     </body>
