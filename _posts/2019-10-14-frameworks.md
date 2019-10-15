@@ -1,3 +1,9 @@
+---
+layout: post
+author: Ivy
+title: Frameworks
+---
+
 # Rails
 Seems the second most compilcated to learn up front, but seems easy once you do learn that. I like the community aspect of it
 but I don't feel like I would choose this framework since I have never used ruby. Ruby appears to have a lot of differences than other languages I've used
