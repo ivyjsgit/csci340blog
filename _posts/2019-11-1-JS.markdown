@@ -1,0 +1,16 @@
+---
+layout: post
+author: Ivy
+---
+
+## Khan Academy
+
+I found the Khan Academy Tutorial to be very useful for this project. There weren't many issues that I had with it.
+
+## APIs
+
+The APIs that I found were relatively easy to use, but one of them had an issue with CORS. I eventually fixed this issue, but this morning I found out that the AJAX-CORS plugin that I was using got rate limited, so I the tables will not load until it is no longer rate limited.
+
+I wish there was a better way to do this without getting rate limited.
+
+It was exciting to finally get the table to populate, because I was struggling with CORS for a long time. 
